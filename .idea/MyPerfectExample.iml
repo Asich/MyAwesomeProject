@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CIDR_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectLib-2.0.3/Sources/PerfectLib/JSONConvertible.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectLib-2.0.3/Sources/PerfectLib/Log.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectLib-2.0.3/Sources/PerfectLib/Utilities.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectLib-2.0.3/Sources/PerfectLib/PerfectError.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectLib-2.0.3/Sources/PerfectLib/File.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectLib-2.0.3/Sources/PerfectLib/Dir.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectLib-2.0.3/Sources/PerfectLib/SysProcess.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectLib-2.0.3/Sources/PerfectLib/Bytes.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectLib-2.0.3/Sources/PerfectLib/SwiftCompatibility.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectLib-2.0.3/Sources/PerfectLib/PerfectServer.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectHTTP-2.0.5/Sources/HTTPResponse.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectHTTP-2.0.5/Sources/MimeReader.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectHTTP-2.0.5/Sources/Routing.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectHTTP-2.0.5/Sources/StaticFileHandler.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectHTTP-2.0.5/Sources/HTTPRequest.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectHTTP-2.0.5/Sources/MimeType.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectHTTP-2.0.5/Sources/HTTPHeaders.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectHTTP-2.0.5/Sources/HTTPMethod.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectHTTP-2.0.5/Sources/HTTPFilter.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectThread-2.0.3/Sources/Threading.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectThread-2.0.3/Sources/ThreadQueue.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/d1_srtp.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/a_enum.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pem_pk8.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dsa_sign.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_prime.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rand_nw.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ecp_smpl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/sha1dgst.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/mem.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_rc2.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_rand.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bss_dgram.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/c_ecb.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dso_win32.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pk7_smime.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bio_ndef.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/a_digest.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rsa_null.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_shift.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/a_gentm.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/c_rle.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/m_wp.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_chil_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dsa_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_genn.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/des_old.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x509_vfy.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/tb_pkmeth.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dsa_ameth.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bss_file.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/s2_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/camellia.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cms_dd.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x_pubkey.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x_long.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pmeth_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/i_ofb64.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p12_utl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x509_req.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/t1_ext.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ecs_vrf.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p12_attr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pkcs7err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/s3_enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/err_prn.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dso_vms.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cbc3_enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x_pkey.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/s3_meth.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/tb_rand.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_aes_cbc_hmac_sha1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/comp_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_padlock.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/des_old2.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/o_time.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x_crl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/n_pkey.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ocsp_srv.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x_bignum.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x509_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p_open.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_recp.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/hmac.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/m_ecdsa.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_bitst.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/a_print.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ts_asn1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/conf_def.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/eng_openssl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bss_sock.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/s23_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cms_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/a_strex.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/a_mbstr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/asn_pack.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/eng_cnf.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/digest.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dsa_depr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/sha256.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_crld.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pem_sign.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_akey.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_chil.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cmll_ofb.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/eng_dyn.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/tasn_utl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/fips_ers.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ocsp_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ecs_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/seed_cbc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cbc_enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/tb_dsa.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pem_pkey.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x509_att.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rmd_one.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bss_conn.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ec2_smpl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cfb64ede.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ssl_stat.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p12_add.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/aes_ctr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pk7_dgst.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/t1_clnt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/tb_ecdsa.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ctr128.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p5_crpt2.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cpt_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/stack.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ts_conf.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/xcbc_enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_xcbc_d.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bss_fd.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/a_bytes.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_cast.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/c_zlib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/aes_ofb.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bf_skey.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ech_ossl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ssl_err2.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cms_kari.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/m_md4.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dsa_prn.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/gosthash.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rc2_skey.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x509rset.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/a_verify.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/seed.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/tb_cipher.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/t1_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rand_vms.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ech_key.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/evp_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/lhash.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ec_cvt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x509spki.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p12_mutl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pem_xaux.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_x931p.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/o_str.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/evp_pkey.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pcy_map.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/c_all.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/t_crl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bio_pk7.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/conf_sap.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rsa_pk1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/err_all.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rsa_chk.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cmll_ctr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/conf_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/gost_pmeth.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p_enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/a_bitstr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/aes_core.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p12_npas.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/t1_srvr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/sha512.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/eck_prn.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rand_key.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/xts128.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dh_asn1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/kssl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/a_sign.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/buf_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dso_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_enum.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/a_type.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_blind.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pk7_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cmll_utl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/encode.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pcy_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/eng_ctrl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/tasn_fre.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ec2_oct.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/gost2001_keyx.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ts_rsp_utils.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_nuron_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cms_ess.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rsa_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/sha_one.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ssl_sess.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/gost89.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x_attrib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ts_rsp_sign.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cfb_enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/m_dss1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/d1_meth.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_cswift.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dh_depr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_ocsp.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/s23_srvr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/th-lock.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_pci.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/tb_store.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ecb3_enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/obj_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p12_crt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/gost94_keyx.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_ubsec_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/o_names.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/eng_pkey.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bio_b64.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p5_pbev2.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/names.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/i_ecb.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ecp_mont.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/openbsd_hw.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_seed.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_capi_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/s3_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/a_set.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/comp_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ocsp_asn.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/aes_wrap.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dsa_gen.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/a_dup.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dh_kdf.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cmll_cbc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p_dec.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/randfile.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ts_verify_ctx.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/txt_db.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/tasn_prn.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/aes_misc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/gost_md.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bss_acpt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ocsp_vfy.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/s2_pkt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_bf.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_aes_cbc_hmac_sha256.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ec_print.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_gmp_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ec2_mult.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_kron.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/uid.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/a_utf8.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/eng_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/a_utctm.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/evp_enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ssl_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/evp_cnf.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/tasn_dec.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x509_ext.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bf_lbuf.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bss_null.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dso_null.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/sha_dgst.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bf_nbio.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rand_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pcy_cache.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x509_obj.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/tb_asnmth.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/c_cfb64.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/c_allc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dso_dl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/read2pwd.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/krb5_asn.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_skey.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cms_att.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_des.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pem_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bf_buff.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/s23_pkt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_aes.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rmd_dgst.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_des3.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ocsp_ext.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_pcia.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_add.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/eng_table.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/srp_vfy.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/o_dir.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x509_set.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ssl_utst.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ec_ameth.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/s2_clnt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ssl_asn1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cmll_ecb.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_old.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/set_key.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p_verify.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cfb128.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/m_dss.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/s23_clnt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/t_bitst.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/nsseq.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/t_x509.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rsa_ameth.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/tasn_typ.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_prn.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rc2_ecb.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/o_init.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/gost_ameth.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/d2i_pu.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/d1_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/evp_pbe.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rsa_eay.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x509_trs.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/fcrypt_b.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ecs_ossl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rc2cfb64.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rc4_enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/aes_ecb.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/evp_key.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x509type.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dh_key.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cms_smime.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x_name.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ssl_conf.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ec_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p5_crpt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_mpi.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p12_decr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/i_skey.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/s2_srvr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ec_pmeth.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dh_gen.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/evp_asn1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cms_env.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dh_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x509_r2x.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/eng_list.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/m_md5.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p12_key.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x_sig.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/sha1_one.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/a_octet.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pem_oth.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_utl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/m_sha.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/b_print.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ui_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/asn1_par.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_ubsec.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pvkfmt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dso_dlfcn.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/d1_both.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ofb64enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_print.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bio_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ech_kdf.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/wp_dgst.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rsa_pss.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/f_enum.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dsa_asn1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ocsp_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ecs_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pk12err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/gost_eng.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/s3_both.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/gost_keywrap.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ts_rsp_print.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ameth_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_gf2m.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/a_i2d_fp.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x509_cmp.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_gmp.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ssl_rsa.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/mdc2dgst.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bf_cfb64.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/enc_read.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dh_pmeth.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/f_string.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/d1_srvr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/aes_ige.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/gost2001.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_ctx.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/lh_stats.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cversion.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dh_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/conf_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ssl_txt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_capi.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pmeth_fn.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/t1_reneg.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/s3_srvr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/c_enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/seed_cfb.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x_all.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_div.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/d2i_pr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_bcons.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/obj_dat.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_pcons.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x_val.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/str2key.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_depr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/by_file.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/seed_ofb.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rsa_none.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/buffer.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/eng_rdrand.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/srp_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/evp_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/s3_pkt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/tb_ecdh.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rsa_x931.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dso_beos.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/wrap128.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x_nx509.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p12_crpt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cm_pmeth.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/md4_one.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ofb_enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ecp_nistp256.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/m_md2.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_idea.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/wp_block.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pk7_asn1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ccm128.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_cswift_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pcy_data.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/i_cbc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/tasn_enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/conf_mod.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_rc4.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_conf.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ui_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pcbc_enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p5_pbe.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ts_req_utils.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/buf_str.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/tasn_new.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ssl_cert.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/m_sigver.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cm_ameth.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/a_bool.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/tb_rsa.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/gost_sign.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ssl_ciph.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ts_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x_x509.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/t1_meth.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rsa_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/tb_dh.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_aep_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p8_pkey.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x509name.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bio_enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_cpols.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/md_rand.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rand_egd.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_pmaps.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pmeth_gn.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cbc_cksm.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_info.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bio_md.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_rc4_hmac_md5.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/eng_cryptodev.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/d1_clnt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/s3_cbc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/s2_meth.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_asm.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/c_alld.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_int.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pem_info.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/by_dir.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dsa_ossl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x509_d2.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/s3_clnt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_extku.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p12_p8e.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/a_strnid.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rand_unix.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rand_os2.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rsa_crpt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ec_mult.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/s23_meth.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/fcrypt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x509_def.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rsa_gen.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pem_all.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/c_skey.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x_x509a.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/des_enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rsa_oaep.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/gost_asn1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pem_x509.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ui_compat.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ocsp_ht.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_pku.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rsaz_exp.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/d1_pkt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ssl_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cbc128.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_ia5.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dh_ameth.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_atalla.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ec_key.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x_req.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cmll_misc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/eng_init.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p_seal.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pqueue.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bio_cb.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cfb64enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rand_win.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pk7_mime.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bf_enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cms_sd.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/i_cfb64.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p_sign.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bio_ok.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/b_dump.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cms_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_camellia.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rc4_skey.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/evp_acnf.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ec_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rsa_pmeth.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/aes_cbc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bf_null.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_nuron.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/m_sha1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_scts.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p12_asn.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rsa_ssl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/gost_ctl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x_info.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dh_prn.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dh_rfc5114.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ecp_nistputil.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p12_init.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bss_log.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ec_oct.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/eng_all.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/gost_crypt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ec_check.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dsa_key.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_nist.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rc4_utl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ocsp_prn.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ecs_sign.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ts_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x_spki.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/c_ofb64.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ec_curve.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/asn1_gen.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bio_asn1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pk7_attr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/tb_digest.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_const.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pem_seal.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dso_openssl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/gcm128.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/t_x509a.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ede_cbcm_enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/i2d_pu.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ecb_enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_atalla_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_4758cca_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/i2d_pr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/t_req.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/mem_clr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/s2_enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/eng_fat.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/b_sock.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ts_rsp_verify.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/md5_one.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pcy_node.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/seed_ecb.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ecp_nist.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pk7_doit.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dh_check.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/o_fips.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rc2_cbc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cms_io.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rsa_saos.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cmll_cfb.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_sqr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ecs_asn1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_word.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/m_ripemd.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rpc_enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ecp_nistp521.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/asn_moid.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/qud_cksm.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/tls_srp.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p12_p8d.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_gost_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bss_mem.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ex_data.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ts_req_print.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dso_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/a_object.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x509_vpm.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x509cset.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rc2ofb64.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/a_d2i_fp.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_mod.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cms_enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/a_time.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dsa_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_exp.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bss_bio.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/aes_cfb.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cryptlib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bf_ecb.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ech_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_mul.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x509_lu.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dsa_pmeth.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/obj_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rsa_sign.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_sxnet.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/hm_ameth.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_rc5.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/asn1_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_sureware_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_mont.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/a_int.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_gcd.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_purp.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_akeya.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/conf_api.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/m_mdc2.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/asn1_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x_exten.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ecp_oct.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rsa_prn.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/m_null.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/t1_trce.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/mem_dbg.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_alt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/enc_writ.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/hm_pmeth.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/f_int.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x509_txt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ssl_algs.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ech_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/conf_mall.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/p12_kiss.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ofb128.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cms_cd.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cms_pwri.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_addr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ebcdic.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_sqrt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bf_ofb64.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/gost_params.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x509_v3.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/x_algor.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ocsp_cl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/asn_mime.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/eng_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ecp_nistp224.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/t1_enc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rsa_asn1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_4758cca.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/mdc2_one.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/t_pkey.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bio_lib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ofb64ede.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cms_asn1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ui_openssl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_sureware.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/obj_xref.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_asid.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/v3_ncons.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bn_exp2.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rand_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pcy_tree.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/md4_dgst.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ec_asn1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/dsa_vrf.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/t_spki.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_null.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/e_aep.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/cmac.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/bio_ssl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/md5_dgst.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/pem_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/ui_util.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/COpenSSL-2.0.2/COpenSSL/rsa_depr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectHTTPServer-2.0.4/Sources/CHTTPParser/http_parser.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectHTTPServer-2.0.4/Sources/PerfectHTTPServer/HTTP11Request.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectHTTPServer-2.0.4/Sources/PerfectHTTPServer/HTTP2.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectHTTPServer-2.0.4/Sources/PerfectHTTPServer/HTTPServer.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectHTTPServer-2.0.4/Sources/PerfectHTTPServer/HTTP11Response.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectHTTPServer-2.0.4/Sources/PerfectHTTPServer/HPACK.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectNet-2.0.3/Sources/NetTCP.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectNet-2.0.3/Sources/NetTCPSSL.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectNet-2.0.3/Sources/NetEvent.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectNet-2.0.3/Sources/NetNamedPipe.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/PerfectNet-2.0.3/Sources/Net.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sources/RssServices.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sources/RssData.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sources/main.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sources/RssServicesImpl.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MyAwesomeProject.xcodeproj/Configs/Project.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Package.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.gitignore" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/Library/Caches/AppCode2016.2/DerivedData/MyAwesomeProject-fyodqitrzrdvtyfqbhwwuwffqqjr/Build/Intermediates/MyAwesomeProject.build/Debug/MyAwesomeProject.build/DerivedSources" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/SecurityHI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/CarbonSound.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/CommonPanels.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/NavigationServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/Help.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/OpenScripting.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/Print.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/Ink.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/SpeechRecognition.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/ImageCapture.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Intents.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreImage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/InstantMessage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/MapKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/DirectoryService.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ScriptingBridge.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/InstallerPlugins.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ForceFeedback.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreMediaIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreWLAN.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/JavaVM.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaNativeFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/MetalKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Metal.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Security.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Kerberos.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/QuartzCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AddressBook.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/FWAUserLib.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/EventKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/ColorSync.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/LangAnalysis.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/vmnet.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreMedia.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Tcl.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Cocoa.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenCL.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Python.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/PubSub.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/GLUT.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreVideo.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/GameKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Contacts.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CalendarStore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AVKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/FinderSync.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/WebKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/StoreKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accounts.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/SyncServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AVFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AVFoundation.framework/Frameworks/AVFAudio.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Kernel.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/InputMethodKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/SecurityInterface.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/LatentSemanticMapping.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenDirectory.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenDirectory.framework/Frameworks/CFOpenDirectory.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreAudio.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/VideoDecodeAcceleration.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Photos.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/DVDPlayback.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioVideoBridging.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKitScripting.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/QTKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/GameController.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ModelIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/MediaLibrary.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OSAKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ExceptionHandling.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/IOBluetoothUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/SafariServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Foundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/NetFS.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/PreferencePanes.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ScreenSaver.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ImageCaptureCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/SpriteKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Automator.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreData.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Social.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/NetworkExtension.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/SceneKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/SecurityFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/PhotosUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/QuickLook.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Tk.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/JavaScriptCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/IMServicePlugIn.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/GSS.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/TWAIN.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/IOKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/IOSurface.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Hypervisor.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/GLKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Quartz.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Quartz.framework/Frameworks/QuickLookUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Quartz.framework/Frameworks/QuartzFilters.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Quartz.framework/Frameworks/ImageKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Quartz.framework/Frameworks/QuartzComposer.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Quartz.framework/Frameworks/PDFKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/GameplayKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AppleScriptObjC.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CFNetwork.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CryptoTokenKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/DiscRecordingUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Collaboration.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreTelephony.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AGL.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ContactsUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/VideoToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreLocation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/DiscRecording.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/PCSC.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CloudKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AppleScriptKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/LDAP.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/JavaFrameEmbedding.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/OSServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/SharedFileList.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/FSEvents.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/DictionaryServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ServiceManagement.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ICADevices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/DiskArbitration.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Scripting.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Library/Frameworks/XcodeKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/8.0.0/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/SecurityHI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/CarbonSound.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/CommonPanels.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/NavigationServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/Help.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/OpenScripting.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/Print.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/Ink.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/SpeechRecognition.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/ImageCapture.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Intents.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreImage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/InstantMessage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/MapKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/DirectoryService.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ScriptingBridge.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/InstallerPlugins.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ForceFeedback.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreMediaIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreWLAN.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/JavaVM.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaNativeFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/MetalKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Metal.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Security.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Kerberos.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/QuartzCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AddressBook.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/FWAUserLib.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/EventKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/ColorSync.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/LangAnalysis.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/vmnet.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreMedia.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Tcl.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Cocoa.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenCL.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Python.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/PubSub.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/GLUT.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreVideo.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/GameKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Contacts.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CalendarStore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AVKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/FinderSync.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/WebKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/StoreKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accounts.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/SyncServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AVFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AVFoundation.framework/Frameworks/AVFAudio.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Kernel.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/InputMethodKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/SecurityInterface.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/LatentSemanticMapping.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenDirectory.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenDirectory.framework/Frameworks/CFOpenDirectory.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreAudio.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/VideoDecodeAcceleration.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Photos.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/DVDPlayback.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioVideoBridging.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKitScripting.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/QTKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/GameController.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ModelIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/MediaLibrary.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OSAKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ExceptionHandling.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/IOBluetoothUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/SafariServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Foundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/NetFS.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/PreferencePanes.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ScreenSaver.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ImageCaptureCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/SpriteKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Automator.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreData.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Social.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/NetworkExtension.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/SceneKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/SecurityFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/PhotosUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/QuickLook.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Tk.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/JavaScriptCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/IMServicePlugIn.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/GSS.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/TWAIN.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/IOKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/IOSurface.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Hypervisor.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/GLKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Quartz.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Quartz.framework/Frameworks/QuickLookUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Quartz.framework/Frameworks/QuartzFilters.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Quartz.framework/Frameworks/ImageKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Quartz.framework/Frameworks/QuartzComposer.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Quartz.framework/Frameworks/PDFKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/GameplayKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AppleScriptObjC.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CFNetwork.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CryptoTokenKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/DiscRecordingUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Collaboration.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreTelephony.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AGL.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ContactsUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/VideoToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreLocation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/DiscRecording.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/PCSC.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CloudKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AppleScriptKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/LDAP.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/JavaFrameEmbedding.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/OSServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/SharedFileList.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/FSEvents.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/DictionaryServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ServiceManagement.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ICADevices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/DiskArbitration.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Scripting.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Library/Frameworks/XcodeKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/8.0.0/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
